@@ -1,0 +1,16 @@
+#button {
+    padding: 32px 25px;
+    border: 25px;
+    margin-left: 5%;
+    background-color: azure;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    border-radius: 9px;
+
+}
+
+#button:hover {
+    background-color: rgb(240, 217, 190);
+}

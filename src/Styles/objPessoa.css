@@ -1,0 +1,55 @@
+form input, 
+form textarea{
+	width: 100%;
+
+	padding: 12px;
+
+	box-sizing: border-box;
+
+	border-radius: 6px;
+	border: 3px solid rgba(128, 66, 80, 0.5);
+
+	outline: none;
+
+	font-size: 16px;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+
+}
+
+#form button {
+    background-color: rgb(78, 78, 73);
+    color: white;
+    margin-top: 15px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border: 3px solid rgba(128, 66, 80, 0.5);
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+
+
+
+}
+
+#form button:hover {
+    background-color: rgb(133, 124, 124);
+    color: black;
+}
+
+form label {
+    font-size: 24px;
+   
+}
+
+.userData {
+    background-color: rgb(180, 177, 173);
+    margin-top: 25px;
+    font-size: 12px;
+    padding: 25px;
+    border-radius: 4px;
+
+}
+

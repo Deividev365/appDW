@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/*Estilo menu*/
+.menu {
+    background-color: rgb(236, 243, 243);
+    height: 100px;
+    width: 100%;
+}
+.menu .logo {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(4, 8, 4);
+    line-height: 110px;
+    padding: 0 35px;
+    font-weight: bold;
+   
+}
+
+.menu ul {
+    float: right;
+    margin-right: 100px;
+    margin-top: 18px;
+}
+
+
+.menu ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+
+}
+
+.menu ul li a {
+    color: green;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    padding: 9px 25px;
+    border-radius: 9px;
+    font-weight: bold;
+
+    transition: 0.2s;
+
+}
+
+
+.menu ul li a:hover {
+    background-color: rgb(224, 222, 218);
+    color: black;
+}
+
+/*Estilo menu ends*/
+
+
+/*Estilo conteúdo Principal*/
+
+#page-left {
+    display: flex;
+    align-items: stretch;
+    height: 84.8vh;
+}
+
+
+aside {
+    flex: 8;
+    background-color: rgb(65, 63, 226);
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 100px 90px;
+}
+
+
+strong {
+    font: 700 66px 'Poppins', sans-serif;
+    line-height: 75px;
+    margin-top: 46px;
+}
+
+p {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 26px;
+    color: #f8f8f8;
+
+}
+
+
+main {
+    flex: 9;
+
+    background-color: bisque;
+
+    padding: 0 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-content {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+    align-items: stretch;
+
+}
+
+.main-content img{
+
+    max-width: 100%;
+    height: auto;
+
+}
+/*Estilo conteúdo Principal*/
+
+

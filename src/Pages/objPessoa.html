@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/Styles/index.css">
+    <link rel="stylesheet" href="/src/Styles/objPessoa.css">
+    <script defer src="/src/Scripts/objPessoa.js"></script>
+    <title>App</title>
+</head>
+<body>
+
+
+    <nav class = "menu">
+        <label class="logo">Software.com</label>
+            <ul>
+                <li><a href="/src/Pages/index.html">Home</a></li>
+                <li><a href="/src/Pages/paquimetro.html">Simulador parquímetro</a></li>
+                <li><a href="">Programa objeto Pessoa</a></li>
+            </ul>
+    </nav>
+
+
+
+    <div id = "page-left">
+
+        <aside>
+            <strong>Programa objeto Pessoa.</strong>
+            <p>Estou aprendendo desenvolvimento WEB.</p>
+        </aside>
+
+
+        <main>
+
+
+            <div class="main-content">
+                
+                <form id="form" action="">
+                    <div>
+
+                        <label for="name">Nome: </label>
+                        <input id="name" type="text">
+                    </div>
+
+                    <div>
+
+                        <label for="">cpf: </label>
+                        <input id="cpf" type="text">
+                    </div>
+
+                    <div>
+
+                        <label for="data_nascimento">Ano Nascimento: </label>
+                        <input id="data_nascimento" type="number">
+                    </div>
+
+                    <button>Enviar</button>
+                </form>
+                <div class="userData">
+
+                    <h1 id="digito_nome"></h1>
+    
+                    <h1 id="digito_cpf"></h1>
+    
+                    <h1 id="digito_nascimento"></h1>
+                </div>
+
+            </div>
+
+        </main>
+
+
+
+
+    </div>
+
+
+    
+</body>
+</html>
